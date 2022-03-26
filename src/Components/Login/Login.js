@@ -46,9 +46,12 @@ const Login = ({ userTrue }) => {
     if (result.payload.status === "Admin") {
       userTrue();
       navigate("/dashboard");
-    } else {
+    } else if (result.maetadata.status == 404) {
       navigate("/client");
     }
+    // } else if (result.maetadata.status == 404) {
+    //   document.querySelector("p").textContent = "invalid Credentials";
+    // }
   };
 
   return (

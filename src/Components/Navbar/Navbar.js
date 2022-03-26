@@ -16,9 +16,7 @@ const Navbar = ({ data, logout, hide }) => {
               <li className="nav-link">
                 <Link to="/dashboard">Dashboard</Link>
               </li>
-              <li>
-                <Link to="/client"> Client</Link>
-              </li>
+
               <li onClick={logout}>Log-out</li>
             </>
           ) : (
