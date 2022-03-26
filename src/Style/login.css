@@ -1,0 +1,29 @@
+.login {
+  padding-top: 5rem;
+  display: grid;
+  justify-content: center;
+}
+input {
+  width: 20rem;
+  display: block;
+  height: 3rem;
+
+  text-align: center;
+  margin: 15px;
+  font-size: larger;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.submit {
+  width: 10rem;
+  padding: 10px;
+  background-color: brown;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.btn {
+  text-align: center;
+}
